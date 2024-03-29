@@ -1,0 +1,191 @@
+body{
+  flex-direction: column;
+  align-items: center;
+}
+header{
+  font-style: italic;
+  background-color: rgba(128, 128, 128, 0.1);
+  border-radius: 20px 20px 20px 20px;
+  padding: 0;
+  margin: 0;
+  height: 130px;
+  font-weight: bold;
+  flex: box;
+}
+
+.logo{
+  width: 100px;
+  padding: 0 0 0 140px;
+  flex: box;
+}
+
+.a1{
+  text-decoration: none, underline;
+  color: turquoise;
+  padding: 10px 10px 0 0;
+  margin: 9px;
+  text-align: center;
+  text-shadow: 
+  -1px -1px 0 #000,  
+   1px -1px 0 #000,
+  -1px  1px 0 #000,
+   1px  1px 0 #000;
+}
+
+section{
+  background-color: rgba(128, 128, 128, 0.1);
+  border-radius: 10px;
+}
+
+h1{
+  text-align: center;
+  font-family: Monospace, fantasy;
+  font-size: 27px;
+}
+
+p{
+  flex: box;
+}
+
+.imagenes{
+  width: 150px;
+  margin: 0px 10px 0px 10px;
+  border: 3px solid black;
+  padding: 2px;
+}
+
+.imagenes2{
+  height: 150px;
+  width: 170px;
+  border: 3px solid black;
+  padding: 2px;
+}
+
+div{
+  background-color: rgba(128, 128, 128, 0.1);
+  border-radius: 10px;
+}
+
+.normal{
+  font-style: italic;
+  text-align: center;
+}
+
+.semi1{
+  width: 100px;
+  margin: 0 0 0 15px;
+  border: 3px solid black;
+  padding: 1px;
+}
+.semi6{
+  width: 100px;
+  height: 182px;
+  margin: 0 0 0 15px;
+  border: 3px solid black;
+  padding: 1px;
+}
+.semi3{
+  width: 100px;
+  height: 182px;
+  margin: 0 0 0 15px;
+  border: 3px solid black;
+  padding: 1px;
+}
+
+.semi4{
+  width: 100px;
+  height: 182px;
+  margin: 0 0 0 15px;
+  border: 3px solid black;
+  padding: 1px;
+}
+.semi0{
+  text-align: center;
+  font-style: italic;
+}
+.video0{
+  text-align: center;
+  font-style: italic;
+}
+.video1{
+  width: 100px;
+  height: 182px;
+  margin: 0 0 0 15px;
+  border: 3px solid black;
+  padding: 1px;
+}
+.video2{
+  width: 100px;
+  height: 182px;
+  margin: 0 0 0 15px;
+  border: 3px solid black;
+  padding: 1px;
+}
+.video3{
+  width: 100px;
+  height: 182px;
+  margin: 0 0 0 15px;
+  border: 3px solid black;
+  padding: 1px;
+}
+.video4{
+  width: 100px;
+  height: 182px;
+  margin: 0 0 0 15px;
+  border: 3px solid black;
+  padding: 1px;
+}
+.productos{
+  background-color: rgb("120, 120, 120, 0.1");
+  display: flex;
+}
+.seccion{
+  text-align: center;
+  font-family: Monospace, fantasy;
+  font-size: 27px;
+}
+
+.container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+
+    .img-container {
+      text-align: center;
+      border: 3px solid black;
+      padding: 2px;
+    }
+
+    .img-container img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .img-container h2 {
+      margin-top: 10px;
+      
+    }
+a, h2{
+  text-decoration: none, underline;
+  color: black;
+}
+.mensaje{
+  
+  width: 60px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999; /* Valor alto para asegurarse de que esté adelante de otros elementos */
+
+  
+}
+.Contactanos{
+  color: rgb(4, 255, 4);
+  text-shadow: 
+  -1px -1px 0 #000,  
+   1px -1px 0 #000,
+  -1px  1px 0 #000,
+   1px  1px 0 #000;
+   
+}
